@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form action="acceptstddata">
+    	
+    	<label>Enter Name:</label><input type="text" name="user"/>
+    	<br/>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="Male" id="male"> <label for="Male">Male</label>
+        <input type="radio" name="gender" value="Female" id="female"> <label for="Female">Female</label>
+
+        <br>
+        
+		<label for="courses">Courses:</label><br>
+        <input type="checkbox" name="subj" value="Java">
+		<label for="sub1"> Java </label><br>
+		<input type="checkbox" name="subj" value="React">
+		<label for="sub2"> React </label><br>
+		<input type="checkbox" name="subj" value="Spring">
+		<label for="sub3"> Spring </label><br> 
+
+		<br>
+
+        <label for="state">States:</label><br>
+        <select name="state" id="state">
+        	<option value="none"> </option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Goa">Goa</option>
+            <option value="Hydrabad">Hydrabad</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Benglore">Benglore</option>
+        </select>   
+        
+
+        <br>
+
+        <input type="submit" value=" Submit Form ">
+    </form>
+</body>
+</html>
